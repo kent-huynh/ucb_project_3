@@ -1,0 +1,2697 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20182.18.1219.1517                               -->
+<workbook source-build='2018.2.5 (20182.18.1219.1517)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <SortTagCleanup />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='2012-18_teamBoxScore' inline='true' name='federated.0w3pysf0momlh219hh0r009aqnmm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2012-18_teamBoxScore' name='textscan.10zpr490w6nw4z194ezj80i33j9e'>
+            <connection class='textscan' directory='C:/Users/Kent/Desktop/Project_3/ucb_project_3' filename='2012-18_teamBoxScore.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.10zpr490w6nw4z194ezj80i33j9e' name='2012-18_teamBoxScore.csv' table='[2012-18_teamBoxScore#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='gmDate' ordinal='0' />
+            <column datatype='datetime' name='gmTime' ordinal='1' />
+            <column datatype='string' name='seasTyp' ordinal='2' />
+            <column datatype='string' name='offLNm1' ordinal='3' />
+            <column datatype='string' name='offFNm1' ordinal='4' />
+            <column datatype='string' name='offLNm2' ordinal='5' />
+            <column datatype='string' name='offFNm2' ordinal='6' />
+            <column datatype='string' name='offLNm3' ordinal='7' />
+            <column datatype='string' name='offFNm3' ordinal='8' />
+            <column datatype='string' name='teamAbbr' ordinal='9' />
+            <column datatype='string' name='teamConf' ordinal='10' />
+            <column datatype='string' name='teamDiv' ordinal='11' />
+            <column datatype='string' name='teamLoc' ordinal='12' />
+            <column datatype='string' name='teamRslt' ordinal='13' />
+            <column datatype='integer' name='teamMin' ordinal='14' />
+            <column datatype='integer' name='teamDayOff' ordinal='15' />
+            <column datatype='integer' name='teamPTS' ordinal='16' />
+            <column datatype='integer' name='teamAST' ordinal='17' />
+            <column datatype='integer' name='teamTO' ordinal='18' />
+            <column datatype='integer' name='teamSTL' ordinal='19' />
+            <column datatype='integer' name='teamBLK' ordinal='20' />
+            <column datatype='integer' name='teamPF' ordinal='21' />
+            <column datatype='integer' name='teamFGA' ordinal='22' />
+            <column datatype='integer' name='teamFGM' ordinal='23' />
+            <column datatype='real' name='teamFG%' ordinal='24' />
+            <column datatype='integer' name='team2PA' ordinal='25' />
+            <column datatype='integer' name='team2PM' ordinal='26' />
+            <column datatype='real' name='team2P%' ordinal='27' />
+            <column datatype='integer' name='team3PA' ordinal='28' />
+            <column datatype='integer' name='team3PM' ordinal='29' />
+            <column datatype='real' name='team3P%' ordinal='30' />
+            <column datatype='integer' name='teamFTA' ordinal='31' />
+            <column datatype='integer' name='teamFTM' ordinal='32' />
+            <column datatype='real' name='teamFT%' ordinal='33' />
+            <column datatype='integer' name='teamORB' ordinal='34' />
+            <column datatype='integer' name='teamDRB' ordinal='35' />
+            <column datatype='integer' name='teamTRB' ordinal='36' />
+            <column datatype='integer' name='teamPTS1' ordinal='37' />
+            <column datatype='integer' name='teamPTS2' ordinal='38' />
+            <column datatype='integer' name='teamPTS3' ordinal='39' />
+            <column datatype='integer' name='teamPTS4' ordinal='40' />
+            <column datatype='integer' name='teamPTS5' ordinal='41' />
+            <column datatype='integer' name='teamPTS6' ordinal='42' />
+            <column datatype='integer' name='teamPTS7' ordinal='43' />
+            <column datatype='integer' name='teamPTS8' ordinal='44' />
+            <column datatype='real' name='teamTREB%' ordinal='45' />
+            <column datatype='real' name='teamASST%' ordinal='46' />
+            <column datatype='real' name='teamTS%' ordinal='47' />
+            <column datatype='real' name='teamEFG%' ordinal='48' />
+            <column datatype='real' name='teamOREB%' ordinal='49' />
+            <column datatype='real' name='teamDREB%' ordinal='50' />
+            <column datatype='real' name='teamTO%' ordinal='51' />
+            <column datatype='real' name='teamSTL%' ordinal='52' />
+            <column datatype='real' name='teamBLK%' ordinal='53' />
+            <column datatype='real' name='teamBLKR' ordinal='54' />
+            <column datatype='real' name='teamPPS' ordinal='55' />
+            <column datatype='real' name='teamFIC' ordinal='56' />
+            <column datatype='real' name='teamFIC40' ordinal='57' />
+            <column datatype='real' name='teamOrtg' ordinal='58' />
+            <column datatype='real' name='teamDrtg' ordinal='59' />
+            <column datatype='real' name='teamEDiff' ordinal='60' />
+            <column datatype='real' name='teamPlay%' ordinal='61' />
+            <column datatype='real' name='teamAR' ordinal='62' />
+            <column datatype='real' name='teamAST/TO' ordinal='63' />
+            <column datatype='real' name='teamSTL/TO' ordinal='64' />
+            <column datatype='string' name='opptAbbr' ordinal='65' />
+            <column datatype='string' name='opptConf' ordinal='66' />
+            <column datatype='string' name='opptDiv' ordinal='67' />
+            <column datatype='string' name='opptLoc' ordinal='68' />
+            <column datatype='string' name='opptRslt' ordinal='69' />
+            <column datatype='integer' name='opptMin' ordinal='70' />
+            <column datatype='integer' name='opptDayOff' ordinal='71' />
+            <column datatype='integer' name='opptPTS' ordinal='72' />
+            <column datatype='integer' name='opptAST' ordinal='73' />
+            <column datatype='integer' name='opptTO' ordinal='74' />
+            <column datatype='integer' name='opptSTL' ordinal='75' />
+            <column datatype='integer' name='opptBLK' ordinal='76' />
+            <column datatype='integer' name='opptPF' ordinal='77' />
+            <column datatype='integer' name='opptFGA' ordinal='78' />
+            <column datatype='integer' name='opptFGM' ordinal='79' />
+            <column datatype='real' name='opptFG%' ordinal='80' />
+            <column datatype='integer' name='oppt2PA' ordinal='81' />
+            <column datatype='integer' name='oppt2PM' ordinal='82' />
+            <column datatype='real' name='oppt2P%' ordinal='83' />
+            <column datatype='integer' name='oppt3PA' ordinal='84' />
+            <column datatype='integer' name='oppt3PM' ordinal='85' />
+            <column datatype='real' name='oppt3P%' ordinal='86' />
+            <column datatype='integer' name='opptFTA' ordinal='87' />
+            <column datatype='integer' name='opptFTM' ordinal='88' />
+            <column datatype='real' name='opptFT%' ordinal='89' />
+            <column datatype='integer' name='opptORB' ordinal='90' />
+            <column datatype='integer' name='opptDRB' ordinal='91' />
+            <column datatype='integer' name='opptTRB' ordinal='92' />
+            <column datatype='integer' name='opptPTS1' ordinal='93' />
+            <column datatype='integer' name='opptPTS2' ordinal='94' />
+            <column datatype='integer' name='opptPTS3' ordinal='95' />
+            <column datatype='integer' name='opptPTS4' ordinal='96' />
+            <column datatype='integer' name='opptPTS5' ordinal='97' />
+            <column datatype='integer' name='opptPTS6' ordinal='98' />
+            <column datatype='integer' name='opptPTS7' ordinal='99' />
+            <column datatype='integer' name='opptPTS8' ordinal='100' />
+            <column datatype='real' name='opptTREB%' ordinal='101' />
+            <column datatype='real' name='opptASST%' ordinal='102' />
+            <column datatype='real' name='opptTS%' ordinal='103' />
+            <column datatype='real' name='opptEFG%' ordinal='104' />
+            <column datatype='real' name='opptOREB%' ordinal='105' />
+            <column datatype='real' name='opptDREB%' ordinal='106' />
+            <column datatype='real' name='opptTO%' ordinal='107' />
+            <column datatype='real' name='opptSTL%' ordinal='108' />
+            <column datatype='real' name='opptBLK%' ordinal='109' />
+            <column datatype='real' name='opptBLKR' ordinal='110' />
+            <column datatype='real' name='opptPPS' ordinal='111' />
+            <column datatype='real' name='opptFIC' ordinal='112' />
+            <column datatype='real' name='opptFIC40' ordinal='113' />
+            <column datatype='real' name='opptOrtg' ordinal='114' />
+            <column datatype='real' name='opptDrtg' ordinal='115' />
+            <column datatype='real' name='opptEDiff' ordinal='116' />
+            <column datatype='real' name='opptPlay%' ordinal='117' />
+            <column datatype='real' name='opptAR' ordinal='118' />
+            <column datatype='real' name='opptAST/TO' ordinal='119' />
+            <column datatype='real' name='opptSTL/TO' ordinal='120' />
+            <column datatype='real' name='poss' ordinal='121' />
+            <column datatype='real' name='pace' ordinal='122' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gmDate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[gmDate]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>gmDate</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gmTime</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[gmTime]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>gmTime</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>seasTyp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[seasTyp]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>seasTyp</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offLNm1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[offLNm1]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>offLNm1</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offFNm1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[offFNm1]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>offFNm1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offLNm2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[offLNm2]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>offLNm2</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offFNm2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[offFNm2]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>offFNm2</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offLNm3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[offLNm3]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>offLNm3</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offFNm3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[offFNm3]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>offFNm3</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamAbbr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[teamAbbr]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamAbbr</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamConf</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[teamConf]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamConf</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamDiv</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[teamDiv]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamDiv</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamLoc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[teamLoc]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamLoc</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamRslt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[teamRslt]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamRslt</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamMin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamMin]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamMin</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamDayOff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamDayOff]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamDayOff</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamPTS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamPTS]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamPTS</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamAST</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamAST]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamAST</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamTO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamTO]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamTO</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamSTL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamSTL]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamSTL</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamBLK</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamBLK]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamBLK</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamPF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamPF]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamPF</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamFGA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamFGA]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamFGA</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamFGM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamFGM]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamFGM</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamFG%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamFG%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamFG%</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team2PA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[team2PA]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>team2PA</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team2PM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[team2PM]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>team2PM</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team2P%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[team2P%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>team2P%</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team3PA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[team3PA]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>team3PA</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team3PM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[team3PM]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>team3PM</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>team3P%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[team3P%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>team3P%</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamFTA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamFTA]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamFTA</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamFTM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamFTM]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamFTM</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamFT%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamFT%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamFT%</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamORB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamORB]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamORB</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamDRB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamDRB]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamDRB</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamTRB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamTRB]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamTRB</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamPTS1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamPTS1]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamPTS1</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamPTS2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamPTS2]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamPTS2</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamPTS3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamPTS3]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamPTS3</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamPTS4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamPTS4]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamPTS4</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamPTS5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamPTS5]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamPTS5</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamPTS6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamPTS6]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamPTS6</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamPTS7</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamPTS7]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamPTS7</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamPTS8</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamPTS8]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamPTS8</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamTREB%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamTREB%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamTREB%</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamASST%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamASST%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamASST%</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamTS%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamTS%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamTS%</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamEFG%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamEFG%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamEFG%</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamOREB%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamOREB%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamOREB%</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamDREB%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamDREB%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamDREB%</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamTO%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamTO%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamTO%</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamSTL%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamSTL%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamSTL%</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamBLK%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamBLK%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamBLK%</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamBLKR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamBLKR]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamBLKR</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamPPS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamPPS]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamPPS</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamFIC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamFIC]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamFIC</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamFIC40</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamFIC40]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamFIC40</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamOrtg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamOrtg]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamOrtg</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamDrtg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamDrtg]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamDrtg</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamEDiff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamEDiff]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamEDiff</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamPlay%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamPlay%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamPlay%</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamAR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamAR]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamAR</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamAST/TO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamAST/TO]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamAST/TO</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamSTL/TO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[teamSTL/TO]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>teamSTL/TO</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptAbbr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[opptAbbr]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptAbbr</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptConf</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[opptConf]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptConf</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptDiv</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[opptDiv]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptDiv</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptLoc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[opptLoc]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptLoc</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptRslt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[opptRslt]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptRslt</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptMin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptMin]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptMin</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptDayOff</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptDayOff]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptDayOff</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptPTS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptPTS]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptPTS</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptAST</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptAST]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptAST</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptTO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptTO]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptTO</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptSTL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptSTL]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptSTL</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptBLK</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptBLK]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptBLK</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptPF</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptPF]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptPF</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptFGA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptFGA]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptFGA</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptFGM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptFGM]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptFGM</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptFG%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptFG%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptFG%</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oppt2PA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[oppt2PA]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>oppt2PA</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oppt2PM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[oppt2PM]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>oppt2PM</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oppt2P%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oppt2P%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>oppt2P%</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oppt3PA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[oppt3PA]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>oppt3PA</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oppt3PM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[oppt3PM]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>oppt3PM</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>oppt3P%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[oppt3P%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>oppt3P%</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptFTA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptFTA]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptFTA</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptFTM</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptFTM]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptFTM</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptFT%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptFT%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptFT%</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptORB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptORB]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptORB</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptDRB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptDRB]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptDRB</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptTRB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptTRB]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptTRB</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptPTS1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptPTS1]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptPTS1</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptPTS2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptPTS2]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptPTS2</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptPTS3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptPTS3]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptPTS3</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptPTS4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptPTS4]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptPTS4</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptPTS5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptPTS5]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptPTS5</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptPTS6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptPTS6]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptPTS6</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptPTS7</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptPTS7]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptPTS7</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptPTS8</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[opptPTS8]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptPTS8</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptTREB%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptTREB%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptTREB%</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptASST%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptASST%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptASST%</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptTS%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptTS%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptTS%</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptEFG%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptEFG%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptEFG%</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptOREB%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptOREB%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptOREB%</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptDREB%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptDREB%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptDREB%</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptTO%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptTO%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptTO%</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptSTL%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptSTL%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptSTL%</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptBLK%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptBLK%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptBLK%</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptBLKR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptBLKR]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptBLKR</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptPPS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptPPS]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptPPS</remote-alias>
+            <ordinal>111</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptFIC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptFIC]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptFIC</remote-alias>
+            <ordinal>112</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptFIC40</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptFIC40]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptFIC40</remote-alias>
+            <ordinal>113</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptOrtg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptOrtg]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptOrtg</remote-alias>
+            <ordinal>114</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptDrtg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptDrtg]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptDrtg</remote-alias>
+            <ordinal>115</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptEDiff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptEDiff]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptEDiff</remote-alias>
+            <ordinal>116</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptPlay%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptPlay%]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptPlay%</remote-alias>
+            <ordinal>117</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptAR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptAR]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptAR</remote-alias>
+            <ordinal>118</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptAST/TO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptAST/TO]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptAST/TO</remote-alias>
+            <ordinal>119</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>opptSTL/TO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[opptSTL/TO]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>opptSTL/TO</remote-alias>
+            <ordinal>120</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>poss</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[poss]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>poss</remote-alias>
+            <ordinal>121</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pace</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pace]</local-name>
+            <parent-name>[2012-18_teamBoxScore.csv]</parent-name>
+            <remote-alias>pace</remote-alias>
+            <ordinal>122</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Calculation1' datatype='integer' name='[Calculation_2528771213465571344]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='Sum(IF  [teamRslt] = &apos;Win&apos; THEN 1 END )' />
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Gm Date' datatype='date' name='[gmDate]' role='dimension' type='ordinal' />
+      <column aggregation='Hour' caption='Gm Time' datatype='datetime' name='[gmTime]' role='dimension' type='ordinal' />
+      <column datatype='real' name='[oppt2P%]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[oppt2PA]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[oppt2PM]' role='measure' type='quantitative' />
+      <column datatype='real' name='[oppt3P%]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[oppt3PA]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[oppt3PM]' role='measure' type='quantitative' />
+      <column caption='Oppt AR' datatype='real' name='[opptAR]' role='measure' type='quantitative' />
+      <column datatype='real' name='[opptASST%]' role='measure' type='quantitative' />
+      <column datatype='real' name='[opptAST/TO]' role='measure' type='quantitative' />
+      <column caption='Oppt AST' datatype='integer' name='[opptAST]' role='measure' type='quantitative' />
+      <column caption='Oppt Abbr' datatype='string' name='[opptAbbr]' role='dimension' type='nominal' />
+      <column datatype='real' name='[opptBLK%]' role='measure' type='quantitative' />
+      <column caption='Oppt BLKR' datatype='real' name='[opptBLKR]' role='measure' type='quantitative' />
+      <column caption='Oppt BLK' datatype='integer' name='[opptBLK]' role='measure' type='quantitative' />
+      <column caption='Oppt Conf' datatype='string' name='[opptConf]' role='dimension' type='nominal' />
+      <column caption='Oppt DRB' datatype='integer' name='[opptDRB]' role='measure' type='quantitative' />
+      <column datatype='real' name='[opptDREB%]' role='measure' type='quantitative' />
+      <column caption='Oppt Day Off' datatype='integer' name='[opptDayOff]' role='measure' type='quantitative' />
+      <column caption='Oppt Div' datatype='string' name='[opptDiv]' role='dimension' type='nominal' />
+      <column caption='Oppt Drtg' datatype='real' name='[opptDrtg]' role='measure' type='quantitative' />
+      <column caption='Oppt E Diff' datatype='real' name='[opptEDiff]' role='measure' type='quantitative' />
+      <column datatype='real' name='[opptEFG%]' role='measure' type='quantitative' />
+      <column datatype='real' name='[opptFG%]' role='measure' type='quantitative' />
+      <column caption='Oppt FGA' datatype='integer' name='[opptFGA]' role='measure' type='quantitative' />
+      <column caption='Oppt FGM' datatype='integer' name='[opptFGM]' role='measure' type='quantitative' />
+      <column datatype='real' name='[opptFIC40]' role='measure' type='quantitative' />
+      <column caption='Oppt FIC' datatype='real' name='[opptFIC]' role='measure' type='quantitative' />
+      <column datatype='real' name='[opptFT%]' role='measure' type='quantitative' />
+      <column caption='Oppt FTA' datatype='integer' name='[opptFTA]' role='measure' type='quantitative' />
+      <column caption='Oppt FTM' datatype='integer' name='[opptFTM]' role='measure' type='quantitative' />
+      <column caption='Oppt Loc' datatype='string' name='[opptLoc]' role='dimension' type='nominal' />
+      <column caption='Oppt Min' datatype='integer' name='[opptMin]' role='measure' type='quantitative' />
+      <column caption='Oppt ORB' datatype='integer' name='[opptORB]' role='measure' type='quantitative' />
+      <column datatype='real' name='[opptOREB%]' role='measure' type='quantitative' />
+      <column caption='Oppt Ortg' datatype='real' name='[opptOrtg]' role='measure' type='quantitative' />
+      <column caption='Oppt PF' datatype='integer' name='[opptPF]' role='measure' type='quantitative' />
+      <column caption='Oppt PPS' datatype='real' name='[opptPPS]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[opptPTS1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[opptPTS2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[opptPTS3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[opptPTS4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[opptPTS5]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[opptPTS6]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[opptPTS7]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[opptPTS8]' role='measure' type='quantitative' />
+      <column caption='Oppt PTS' datatype='integer' name='[opptPTS]' role='measure' type='quantitative' />
+      <column datatype='real' name='[opptPlay%]' role='measure' type='quantitative' />
+      <column caption='Oppt Rslt' datatype='string' name='[opptRslt]' role='dimension' type='nominal' />
+      <column datatype='real' name='[opptSTL%]' role='measure' type='quantitative' />
+      <column datatype='real' name='[opptSTL/TO]' role='measure' type='quantitative' />
+      <column caption='Oppt STL' datatype='integer' name='[opptSTL]' role='measure' type='quantitative' />
+      <column datatype='real' name='[opptTO%]' role='measure' type='quantitative' />
+      <column caption='Oppt TO' datatype='integer' name='[opptTO]' role='measure' type='quantitative' />
+      <column caption='Oppt TRB' datatype='integer' name='[opptTRB]' role='measure' type='quantitative' />
+      <column datatype='real' name='[opptTREB%]' role='measure' type='quantitative' />
+      <column datatype='real' name='[opptTS%]' role='measure' type='quantitative' />
+      <column caption='Pace' datatype='real' name='[pace]' role='measure' type='quantitative' />
+      <column caption='Poss' datatype='real' name='[poss]' role='measure' type='quantitative' />
+      <column caption='Seas Typ' datatype='string' name='[seasTyp]' role='dimension' type='nominal' />
+      <column datatype='real' name='[team2P%]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[team2PA]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[team2PM]' role='measure' type='quantitative' />
+      <column datatype='real' name='[team3P%]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[team3PA]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[team3PM]' role='measure' type='quantitative' />
+      <column caption='Team AR' datatype='real' name='[teamAR]' role='measure' type='quantitative' />
+      <column datatype='real' name='[teamASST%]' role='measure' type='quantitative' />
+      <column datatype='real' name='[teamAST/TO]' role='measure' type='quantitative' />
+      <column caption='Team AST' datatype='integer' name='[teamAST]' role='measure' type='quantitative' />
+      <column caption='Team Abbr' datatype='string' name='[teamAbbr]' role='dimension' type='nominal' />
+      <column datatype='real' name='[teamBLK%]' role='measure' type='quantitative' />
+      <column caption='Team BLKR' datatype='real' name='[teamBLKR]' role='measure' type='quantitative' />
+      <column caption='Team BLK' datatype='integer' name='[teamBLK]' role='measure' type='quantitative' />
+      <column caption='Team Conf' datatype='string' name='[teamConf]' role='dimension' type='nominal' />
+      <column caption='Team DRB' datatype='integer' name='[teamDRB]' role='measure' type='quantitative' />
+      <column datatype='real' name='[teamDREB%]' role='measure' type='quantitative' />
+      <column caption='Team Day Off' datatype='integer' name='[teamDayOff]' role='measure' type='quantitative' />
+      <column caption='Team Div' datatype='string' name='[teamDiv]' role='dimension' type='nominal' />
+      <column caption='Team Drtg' datatype='real' name='[teamDrtg]' role='measure' type='quantitative' />
+      <column caption='Team E Diff' datatype='real' name='[teamEDiff]' role='measure' type='quantitative' />
+      <column datatype='real' name='[teamEFG%]' role='measure' type='quantitative' />
+      <column datatype='real' name='[teamFG%]' role='measure' type='quantitative' />
+      <column caption='Team FGA' datatype='integer' name='[teamFGA]' role='measure' type='quantitative' />
+      <column caption='Team FGM' datatype='integer' name='[teamFGM]' role='measure' type='quantitative' />
+      <column datatype='real' name='[teamFIC40]' role='measure' type='quantitative' />
+      <column caption='Team FIC' datatype='real' name='[teamFIC]' role='measure' type='quantitative' />
+      <column datatype='real' name='[teamFT%]' role='measure' type='quantitative' />
+      <column caption='Team FTA' datatype='integer' name='[teamFTA]' role='measure' type='quantitative' />
+      <column caption='Team FTM' datatype='integer' name='[teamFTM]' role='measure' type='quantitative' />
+      <column caption='Team Loc' datatype='string' name='[teamLoc]' role='dimension' type='nominal' />
+      <column caption='Team Min' datatype='integer' name='[teamMin]' role='measure' type='quantitative' />
+      <column caption='Team ORB' datatype='integer' name='[teamORB]' role='measure' type='quantitative' />
+      <column datatype='real' name='[teamOREB%]' role='measure' type='quantitative' />
+      <column caption='Team Ortg' datatype='real' name='[teamOrtg]' role='measure' type='quantitative' />
+      <column caption='Team PF' datatype='integer' name='[teamPF]' role='measure' type='quantitative' />
+      <column caption='Team PPS' datatype='real' name='[teamPPS]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[teamPTS1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[teamPTS2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[teamPTS3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[teamPTS4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[teamPTS5]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[teamPTS6]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[teamPTS7]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[teamPTS8]' role='measure' type='quantitative' />
+      <column caption='Team PTS' datatype='integer' name='[teamPTS]' role='measure' type='quantitative' />
+      <column datatype='real' name='[teamPlay%]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Team Rslt' datatype='string' name='[teamRslt]' role='dimension' type='nominal' />
+      <column datatype='real' name='[teamSTL%]' role='measure' type='quantitative' />
+      <column datatype='real' name='[teamSTL/TO]' role='measure' type='quantitative' />
+      <column caption='Team STL' datatype='integer' name='[teamSTL]' role='measure' type='quantitative' />
+      <column datatype='real' name='[teamTO%]' role='measure' type='quantitative' />
+      <column caption='Team TO' datatype='integer' name='[teamTO]' role='measure' type='quantitative' />
+      <column caption='Team TRB' datatype='integer' name='[teamTRB]' role='measure' type='quantitative' />
+      <column datatype='real' name='[teamTREB%]' role='measure' type='quantitative' />
+      <column datatype='real' name='[teamTS%]' role='measure' type='quantitative' />
+      <column-instance column='[opptPF]' derivation='Avg' name='[avg:opptPF:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamPF]' derivation='Avg' name='[avg:teamPF:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[oppt2P%]' derivation='Sum' name='[sum:oppt2P%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[oppt2PA]' derivation='Sum' name='[sum:oppt2PA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[oppt2PM]' derivation='Sum' name='[sum:oppt2PM:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[oppt3P%]' derivation='Sum' name='[sum:oppt3P%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[oppt3PA]' derivation='Sum' name='[sum:oppt3PA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[oppt3PM]' derivation='Sum' name='[sum:oppt3PM:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptAR]' derivation='Sum' name='[sum:opptAR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptASST%]' derivation='Sum' name='[sum:opptASST%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptAST/TO]' derivation='Sum' name='[sum:opptAST/TO:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptAST]' derivation='Sum' name='[sum:opptAST:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptBLK%]' derivation='Sum' name='[sum:opptBLK%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptBLK]' derivation='Sum' name='[sum:opptBLK:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptBLKR]' derivation='Sum' name='[sum:opptBLKR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptDRB]' derivation='Sum' name='[sum:opptDRB:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptDREB%]' derivation='Sum' name='[sum:opptDREB%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptDayOff]' derivation='Sum' name='[sum:opptDayOff:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptDrtg]' derivation='Sum' name='[sum:opptDrtg:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptEDiff]' derivation='Sum' name='[sum:opptEDiff:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptEFG%]' derivation='Sum' name='[sum:opptEFG%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptFG%]' derivation='Sum' name='[sum:opptFG%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptFGA]' derivation='Sum' name='[sum:opptFGA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptFGM]' derivation='Sum' name='[sum:opptFGM:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptFIC40]' derivation='Sum' name='[sum:opptFIC40:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptFIC]' derivation='Sum' name='[sum:opptFIC:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptFT%]' derivation='Sum' name='[sum:opptFT%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptFTA]' derivation='Sum' name='[sum:opptFTA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptFTM]' derivation='Sum' name='[sum:opptFTM:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptMin]' derivation='Sum' name='[sum:opptMin:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptORB]' derivation='Sum' name='[sum:opptORB:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptOREB%]' derivation='Sum' name='[sum:opptOREB%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptOrtg]' derivation='Sum' name='[sum:opptOrtg:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptPF]' derivation='Sum' name='[sum:opptPF:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptPPS]' derivation='Sum' name='[sum:opptPPS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptPTS1]' derivation='Sum' name='[sum:opptPTS1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptPTS2]' derivation='Sum' name='[sum:opptPTS2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptPTS3]' derivation='Sum' name='[sum:opptPTS3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptPTS4]' derivation='Sum' name='[sum:opptPTS4:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptPTS5]' derivation='Sum' name='[sum:opptPTS5:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptPTS6]' derivation='Sum' name='[sum:opptPTS6:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptPTS7]' derivation='Sum' name='[sum:opptPTS7:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptPTS8]' derivation='Sum' name='[sum:opptPTS8:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptPTS]' derivation='Sum' name='[sum:opptPTS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptPlay%]' derivation='Sum' name='[sum:opptPlay%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptSTL%]' derivation='Sum' name='[sum:opptSTL%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptSTL/TO]' derivation='Sum' name='[sum:opptSTL/TO:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptSTL]' derivation='Sum' name='[sum:opptSTL:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptTO%]' derivation='Sum' name='[sum:opptTO%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptTO]' derivation='Sum' name='[sum:opptTO:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptTRB]' derivation='Sum' name='[sum:opptTRB:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptTREB%]' derivation='Sum' name='[sum:opptTREB%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[opptTS%]' derivation='Sum' name='[sum:opptTS%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[pace]' derivation='Sum' name='[sum:pace:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[poss]' derivation='Sum' name='[sum:poss:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[team2P%]' derivation='Sum' name='[sum:team2P%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[team2PA]' derivation='Sum' name='[sum:team2PA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[team2PM]' derivation='Sum' name='[sum:team2PM:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[team3P%]' derivation='Sum' name='[sum:team3P%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[team3PA]' derivation='Sum' name='[sum:team3PA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[team3PM]' derivation='Sum' name='[sum:team3PM:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamAR]' derivation='Sum' name='[sum:teamAR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamASST%]' derivation='Sum' name='[sum:teamASST%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamAST/TO]' derivation='Sum' name='[sum:teamAST/TO:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamAST]' derivation='Sum' name='[sum:teamAST:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamBLK%]' derivation='Sum' name='[sum:teamBLK%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamBLK]' derivation='Sum' name='[sum:teamBLK:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamBLKR]' derivation='Sum' name='[sum:teamBLKR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamDRB]' derivation='Sum' name='[sum:teamDRB:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamDREB%]' derivation='Sum' name='[sum:teamDREB%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamDayOff]' derivation='Sum' name='[sum:teamDayOff:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamDrtg]' derivation='Sum' name='[sum:teamDrtg:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamEDiff]' derivation='Sum' name='[sum:teamEDiff:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamEFG%]' derivation='Sum' name='[sum:teamEFG%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamFG%]' derivation='Sum' name='[sum:teamFG%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamFGA]' derivation='Sum' name='[sum:teamFGA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamFGM]' derivation='Sum' name='[sum:teamFGM:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamFIC40]' derivation='Sum' name='[sum:teamFIC40:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamFIC]' derivation='Sum' name='[sum:teamFIC:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamFT%]' derivation='Sum' name='[sum:teamFT%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamFTA]' derivation='Sum' name='[sum:teamFTA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamFTM]' derivation='Sum' name='[sum:teamFTM:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamMin]' derivation='Sum' name='[sum:teamMin:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamORB]' derivation='Sum' name='[sum:teamORB:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamOREB%]' derivation='Sum' name='[sum:teamOREB%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamOrtg]' derivation='Sum' name='[sum:teamOrtg:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamPF]' derivation='Sum' name='[sum:teamPF:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamPPS]' derivation='Sum' name='[sum:teamPPS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamPTS1]' derivation='Sum' name='[sum:teamPTS1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamPTS2]' derivation='Sum' name='[sum:teamPTS2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamPTS3]' derivation='Sum' name='[sum:teamPTS3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamPTS4]' derivation='Sum' name='[sum:teamPTS4:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamPTS5]' derivation='Sum' name='[sum:teamPTS5:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamPTS6]' derivation='Sum' name='[sum:teamPTS6:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamPTS7]' derivation='Sum' name='[sum:teamPTS7:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamPTS8]' derivation='Sum' name='[sum:teamPTS8:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamPTS]' derivation='Sum' name='[sum:teamPTS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamPlay%]' derivation='Sum' name='[sum:teamPlay%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamSTL%]' derivation='Sum' name='[sum:teamSTL%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamSTL/TO]' derivation='Sum' name='[sum:teamSTL/TO:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamSTL]' derivation='Sum' name='[sum:teamSTL:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamTO%]' derivation='Sum' name='[sum:teamTO%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamTO]' derivation='Sum' name='[sum:teamTO:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamTRB]' derivation='Sum' name='[sum:teamTRB:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamTREB%]' derivation='Sum' name='[sum:teamTREB%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[teamTS%]' derivation='Sum' name='[sum:teamTS%:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[gmDate]' derivation='Year-Trunc' name='[tyr:gmDate:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Calculation_2528771213465571344]' derivation='User' name='[usr:Calculation_2528771213465571344:ok]' pivot='key' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.555556' measure-ordering='alphabetic' measure-percentage='0.444444' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[tyr:gmDate:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>#2012-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>#2016-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>#2015-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>#2018-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>#2014-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>#2017-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>#2013-01-01 00:00:00#</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptFTA:qk]&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptTO\%:qk]&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamAR:qk]&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamBLK:qk]&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamPTS6:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:opptPF:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptAST/TO:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptFGM:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptPTS7:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamBLKR:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamORB:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:Number of Records:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:oppt2P\%:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptTS\%:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamOrtg:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamPTS:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamPTS2:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptDayOff:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptDRB:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptPPS:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamASST\%:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamFG\%:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptFTM:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptSTL\%:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamAST/TO:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamPF:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamPTS7:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:oppt3PA:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptEFG\%:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamAST:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamDrtg:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamPTS3:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptPF:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptPlay\%:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptPTS5:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:team3P\%:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamFTM:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamSTL\%:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptFG\%:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptPTS8:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptSTL/TO:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamDRB:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamMin:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamPPS:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptDrtg:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptPTS3:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptSTL:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:team3PA:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamDREB\%:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:oppt3PM:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptOREB\%:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamEDiff:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamPTS4:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamTO:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptFIC:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptPTS:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptTRB:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:team2PA:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamTS\%:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptAST:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptFIC40:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptPTS1:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:team2PM:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamEFG\%:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptBLK:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptEDiff:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptPTS4:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:team3PM:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamTO\%:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptAR:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptFGA:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptPTS6:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamBLK\%:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamFT\%:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamFTA:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptBLK\%:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptFT\%:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamFGA:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamPTS8:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamSTL/TO:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:oppt3P\%:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptDREB\%:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamPlay\%:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamPTS5:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamSTL:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamPF:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:oppt2PA:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptTREB\%:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:poss:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamFIC:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamTRB:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptOrtg:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptPTS2:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptTO:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:team2P\%:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamOREB\%:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptBLKR:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptMin:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptORB:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamFGM:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamTREB\%:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:oppt2PM:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:opptASST\%:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:pace:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamDayOff:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamFIC40:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0w3pysf0momlh219hh0r009aqnmm].[sum:teamPTS1:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[usr:Calculation_2528771213465571344:ok]' type='shape'>
+            <map to='circle'>
+              <bucket>21</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>22</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>24</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>25</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>27</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>28</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>29</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>35</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>36</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>39</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>42</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>43</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>44</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>46</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>47</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>48</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>49</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>50</bucket>
+            </map>
+            <map to='times'>
+              <bucket>52</bucket>
+            </map>
+            <map to='times'>
+              <bucket>55</bucket>
+            </map>
+            <map to='times'>
+              <bucket>58</bucket>
+            </map>
+            <map to='times'>
+              <bucket>59</bucket>
+            </map>
+            <map to='times'>
+              <bucket>65</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Assist_Bubbles'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>2017 Season Assist per Team</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2012-18_teamBoxScore' name='federated.0w3pysf0momlh219hh0r009aqnmm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w3pysf0momlh219hh0r009aqnmm'>
+            <column-instance column='[opptAST]' derivation='Avg' name='[avg:opptAST:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[teamAST/TO]' derivation='Avg' name='[avg:teamAST/TO:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[teamAST]' derivation='Avg' name='[avg:teamAST:qk]' pivot='key' type='quantitative' />
+            <column caption='Gm Date' datatype='date' name='[gmDate]' role='dimension' type='ordinal' />
+            <column-instance column='[gmDate]' derivation='None' name='[none:gmDate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[teamAbbr]' derivation='None' name='[none:teamAbbr:nk]' pivot='key' type='nominal' />
+            <column caption='Oppt AST' datatype='integer' name='[opptAST]' role='measure' type='quantitative' />
+            <column datatype='real' name='[teamAST/TO]' role='measure' type='quantitative' />
+            <column caption='Team AST' datatype='integer' name='[teamAST]' role='measure' type='quantitative' />
+            <column caption='Team Abbr' datatype='string' name='[teamAbbr]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0w3pysf0momlh219hh0r009aqnmm].[none:gmDate:qk]' included-values='in-range'>
+            <min>#2017-10-17#</min>
+            <max>#2018-06-17#</max>
+          </filter>
+          <slices>
+            <column>[federated.0w3pysf0momlh219hh0r009aqnmm].[none:gmDate:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:opptAST:qk]' field-type='quantitative' max='27.793132546660328' min='19.0' range-type='fixed' reverse='true' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamAST:qk]' field-type='quantitative' max='31.335029796773206' min='18.0' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:opptAST:qk]' scope='rows' value='Avg Opponent ASST' />
+            <format attr='title' class='0' field='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamAST:qk]' scope='cols' value='Avg Team ASST' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:opptAST:qk]' palette='blue_teal_10_0' reverse='true' type='interpolated' />
+            <encoding attr='size' field='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamAST/TO:qk]' field-type='quantitative' max='2.024270731707317' max-size='1' min='1.440928048780487' min-size='0' type='rangesize' />
+            <encoding attr='color' field='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamAST/TO:qk]' palette='red_gold_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamAST/TO:qk]' />
+              <size column='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamAST/TO:qk]' />
+              <text column='[federated.0w3pysf0momlh219hh0r009aqnmm].[none:teamAbbr:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='2.8390986919403076' />
+                <format attr='mark-transparency' value='206' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:opptAST:qk]</rows>
+        <cols>[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamAST:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='EFG_Team'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Effective Field Goal % per Team</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2012-18_teamBoxScore' name='federated.0w3pysf0momlh219hh0r009aqnmm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w3pysf0momlh219hh0r009aqnmm'>
+            <column caption='COUNT([Team Rslt]== &apos;Win&apos;)' datatype='integer' name='[Calculation_2528771213123624963]' role='measure' type='quantitative' user:unnamed='Sheet 2'>
+              <calculation class='tableau' formula='COUNT([teamRslt]== &apos;Win&apos;)' />
+            </column>
+            <column-instance column='[teamEFG%]' derivation='Avg' name='[avg:teamEFG%:qk]' pivot='key' type='quantitative' />
+            <column caption='Gm Date' datatype='date' name='[gmDate]' role='dimension' type='ordinal' />
+            <column-instance column='[gmDate]' derivation='None' name='[none:gmDate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[teamAbbr]' derivation='None' name='[none:teamAbbr:nk]' pivot='key' type='nominal' />
+            <column caption='Team Abbr' datatype='string' name='[teamAbbr]' role='dimension' type='nominal' />
+            <column datatype='real' name='[teamEFG%]' role='measure' type='quantitative' />
+            <column aggregation='CountD' caption='Team Rslt' datatype='string' name='[teamRslt]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2528771213123624963]' derivation='User' name='[usr:Calculation_2528771213123624963:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0w3pysf0momlh219hh0r009aqnmm].[none:gmDate:qk]' included-values='in-range'>
+            <min>#2017-10-17#</min>
+            <max>#2018-06-30#</max>
+          </filter>
+          <columns>
+            <shelf-sort direction='ASC' measure-to-sort-by='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamEFG%:qk]'>
+              <dimensions-to-sort>
+                <dimension>[federated.0w3pysf0momlh219hh0r009aqnmm].[none:teamAbbr:nk]</dimension>
+              </dimensions-to-sort>
+            </shelf-sort>
+          </columns>
+          <slices>
+            <column>[federated.0w3pysf0momlh219hh0r009aqnmm].[none:gmDate:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamEFG%:qk]' field-type='quantitative' max='0.59744629411764671' min='0.45000000000000001' range-type='fixed' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamEFG%:qk]' scope='rows' value='AVG EFG% per Team' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0w3pysf0momlh219hh0r009aqnmm].[usr:Calculation_2528771213123624963:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamEFG%:qk]</rows>
+        <cols>[federated.0w3pysf0momlh219hh0r009aqnmm].[none:teamAbbr:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='OPPT_Personal Fouls'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>2017 AVG Opponent Personal Fouls&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2012-18_teamBoxScore' name='federated.0w3pysf0momlh219hh0r009aqnmm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w3pysf0momlh219hh0r009aqnmm'>
+            <column caption='Calculation1' datatype='integer' name='[Calculation_2528771213465571344]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='Sum(IF  [teamRslt] = &apos;Win&apos; THEN 1 END )' />
+            </column>
+            <column-instance column='[opptPF]' derivation='Avg' name='[avg:opptPF:qk]' pivot='key' type='quantitative' />
+            <column caption='Gm Date' datatype='date' name='[gmDate]' role='dimension' type='ordinal' />
+            <column-instance column='[gmDate]' derivation='None' name='[none:gmDate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[teamAbbr]' derivation='None' name='[none:teamAbbr:nk]' pivot='key' type='nominal' />
+            <column caption='Oppt PF' datatype='integer' name='[opptPF]' role='measure' type='quantitative' />
+            <column caption='Team Abbr' datatype='string' name='[teamAbbr]' role='dimension' type='nominal' />
+            <column aggregation='CountD' caption='Team Rslt' datatype='string' name='[teamRslt]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2528771213465571344]' derivation='User' name='[usr:Calculation_2528771213465571344:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0w3pysf0momlh219hh0r009aqnmm].[none:gmDate:qk]' included-values='in-range'>
+            <min>#2017-10-17#</min>
+            <max>#2018-06-17#</max>
+          </filter>
+          <slices>
+            <column>[federated.0w3pysf0momlh219hh0r009aqnmm].[none:gmDate:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:opptPF:qk]' field-type='quantitative' max='23.761469379639447' min='15.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='shape' field='[federated.0w3pysf0momlh219hh0r009aqnmm].[usr:Calculation_2528771213465571344:ok]' value='Win Total&#10;'>
+              <formatted-text>
+                <run>Win Total&#10;</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <shape column='[federated.0w3pysf0momlh219hh0r009aqnmm].[usr:Calculation_2528771213465571344:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:opptPF:qk]</rows>
+        <cols>[federated.0w3pysf0momlh219hh0r009aqnmm].[none:teamAbbr:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2012-18_teamBoxScore' name='federated.0w3pysf0momlh219hh0r009aqnmm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w3pysf0momlh219hh0r009aqnmm'>
+            <column caption='Calculation1' datatype='integer' name='[Calculation_2528771213465571344]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='Sum(IF  [teamRslt] = &apos;Win&apos; THEN 1 END )' />
+            </column>
+            <column-instance column='[teamAbbr]' derivation='None' name='[none:teamAbbr:nk]' pivot='key' type='nominal' />
+            <column caption='Team Abbr' datatype='string' name='[teamAbbr]' role='dimension' type='nominal' />
+            <column aggregation='CountD' caption='Team Rslt' datatype='string' name='[teamRslt]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2528771213465571344]' derivation='User' name='[usr:Calculation_2528771213465571344:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0w3pysf0momlh219hh0r009aqnmm].[usr:Calculation_2528771213465571344:qk]</rows>
+        <cols>[federated.0w3pysf0momlh219hh0r009aqnmm].[none:teamAbbr:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Win_Losses'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>2017 Season Win/Loss per Team&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2012-18_teamBoxScore' name='federated.0w3pysf0momlh219hh0r009aqnmm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w3pysf0momlh219hh0r009aqnmm'>
+            <column-instance column='[teamRslt]' derivation='Count' name='[cnt:teamRslt:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[teamRslt]' derivation='CountD' name='[ctd:teamRslt:qk]' pivot='key' type='quantitative' />
+            <column caption='Gm Date' datatype='date' name='[gmDate]' role='dimension' type='ordinal' />
+            <column-instance column='[gmDate]' derivation='None' name='[none:gmDate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[teamAbbr]' derivation='None' name='[none:teamAbbr:nk]' pivot='key' type='nominal' />
+            <column-instance column='[teamRslt]' derivation='None' name='[none:teamRslt:nk]' pivot='key' type='nominal' />
+            <column caption='Team Abbr' datatype='string' name='[teamAbbr]' role='dimension' type='nominal' />
+            <column aggregation='CountD' caption='Team Rslt' datatype='string' name='[teamRslt]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0w3pysf0momlh219hh0r009aqnmm].[none:gmDate:qk]' included-values='in-range'>
+            <min>#2017-10-17#</min>
+            <max>#2018-06-17#</max>
+          </filter>
+          <computed-sort column='[federated.0w3pysf0momlh219hh0r009aqnmm].[none:teamRslt:nk]' direction='DESC' using='[federated.0w3pysf0momlh219hh0r009aqnmm].[cnt:teamRslt:qk]' />
+          <columns>
+            <shelf-sort direction='DESC' measure-to-sort-by='[federated.0w3pysf0momlh219hh0r009aqnmm].[cnt:teamRslt:qk]'>
+              <dimensions-to-sort>
+                <dimension>[federated.0w3pysf0momlh219hh0r009aqnmm].[none:teamAbbr:nk]</dimension>
+              </dimensions-to-sort>
+              <sort-filter-info>
+                <sort-filter level-name='[federated.0w3pysf0momlh219hh0r009aqnmm].[none:teamRslt:nk]' member-value='&quot;Loss&quot;' />
+              </sort-filter-info>
+            </shelf-sort>
+          </columns>
+          <slices>
+            <column>[federated.0w3pysf0momlh219hh0r009aqnmm].[none:gmDate:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0w3pysf0momlh219hh0r009aqnmm].[cnt:teamRslt:qk]' scope='rows' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0w3pysf0momlh219hh0r009aqnmm].[ctd:teamRslt:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0w3pysf0momlh219hh0r009aqnmm].[none:teamRslt:nk] * [federated.0w3pysf0momlh219hh0r009aqnmm].[cnt:teamRslt:qk])</rows>
+        <cols>[federated.0w3pysf0momlh219hh0r009aqnmm].[none:teamAbbr:nk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Story 1' type='storyboard'>
+      <style>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='710' />
+        </style-rule>
+      </style>
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type='layout-flow' w='98426' x='787' y='830'>
+            <zone h='5187' id='3' type='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type='flipboard-nav' w='98426' x='787' y='6017' />
+            <zone h='82676' id='5' paired-zone-id='4' removable='false' type='flipboard' w='98426' x='787' y='16494'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='The top performing teams were average in the number of opponent fouls per game.' captured-sheet='OPPT_Personal Fouls' id='1' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Win_Losses'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0w3pysf0momlh219hh0r009aqnmm].[ctd:teamRslt:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='EFG_Team'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Assist_Bubbles'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamAST/TO:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0w3pysf0momlh219hh0r009aqnmm].[avg:teamAST/TO:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='OPPT_Personal Fouls'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0w3pysf0momlh219hh0r009aqnmm].[usr:Calculation_2528771213465571344:ok]' type='shape' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+    </window>
+  </windows>
+</workbook>
